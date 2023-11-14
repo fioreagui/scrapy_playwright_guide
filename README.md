@@ -77,7 +77,7 @@ Generic waiting methods are referenced, as it is the programmer's personal decis
 
 Other methods are not applicable in all cases and often conclude without loading the desired content. Therefore, the choice depends on what we are specifically waiting for. A disadvantage of using this method is the default time wastage, as it will continue waiting even after our goal has been achieved.
 
-You can find the example on the file src/example/spiders/example_simple.py
+You can find the example on the file src/example/example/spiders/example_simple.py
 
 ## Contexts
 
@@ -124,4 +124,4 @@ The waiting method used is `wait_for_timeout(time)` mentioned earlier.
 
 To extract the URL for the next list of quotes, it uses the Selector generated from the page's content. It raises a new Request, reusing the current Page object.
 
-You can find the example on the file src/example/spiders/example_quotes.py .
+You can find the example on the file src/example/example/spiders/example_quotes.py .
